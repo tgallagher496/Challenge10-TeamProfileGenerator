@@ -1,0 +1,26 @@
+{
+  "name": "challenge10-teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgallagher496/Challenge10-TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgallagher496/Challenge10-TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/tgallagher496/Challenge10-TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
