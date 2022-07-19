@@ -3,7 +3,7 @@ const Employee = require("../lib/Employee")
 describe("Employee",()=>{
     describe("test Employee's properties",()=>{
         it ("test all properties",()=>{
-            const employee = new Employee('Tammy',"1",'tgallagher496@gmail.com')
+        const employee = new Employee('Tammy',"1",'tgallagher496@gmail.com')
         
         expect(employee.name).toEqual('Tammy')
         expect(employee.id).toEqual("1")
@@ -18,6 +18,7 @@ describe("Employee",()=>{
         
         expect(employee.getName()).toEqual('Phil')
         expect(employee.getId()).toEqual("2")
+        expect(employee.getEmail()).toEqual('ploy@yahoo.com')
         expect(employee.getRole()).toEqual('Employee')
 
         })   
