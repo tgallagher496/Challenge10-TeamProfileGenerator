@@ -4,9 +4,12 @@ const fs = require("fs");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
-const managerCard = require(".src/CARD THING")
+
 
 const generateHTML = require("./src/generateHTML");
+const managerCard = require("./src/managerHTML")
+const engineerCard = require("./src/engineerHTML")
+const internCard = require("./src/internHTML")
 
 const employeeArray = [];
 
