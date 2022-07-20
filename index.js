@@ -32,7 +32,7 @@ const managerQuestions = [
   {
     type: "input",
     message: "What is the manager's office number?",
-    name: "managerOffice",
+    name: "managerofficeNumber",
   },
 ];
 
@@ -88,7 +88,7 @@ function init() {
       response.managerName,
       response.managerId,
       response.managerEmail,
-      response.managerOfficeNumber
+      response.managerofficeNumber,
     );
 
     employeeArray.push(manager);
@@ -107,7 +107,7 @@ function confirmNext() {
       },
     ])
     .then((response) => {
-      if (addMore == true) {
+      if (response.addMore == true) {
         addEmployee();
       } else {
         createHTML();
@@ -140,7 +140,7 @@ function addEngineer(){
       response.engineerName,
       response.engineerId,
       response.engineerEmail,
-      response.managerGithub
+      response.engineerGithub
     );
 
     employeeArray.push(engineer);
